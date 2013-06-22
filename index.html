@@ -1,52 +1,29 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Don's Madlib Form</title>
-		
-	
+<head>
+  <title>Don's madlib</title>
+  <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
 
-		<script src="jquery-1.9.1.min.js"></script>
-    	 <script src="scripts.js" type="text/javascript" charset="utf-8" async defer></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>	
-								
-	</head>
-		<body>
-		
+        <script src="jquery-1.9.1.min.js"></script>
+        <script src="scripts.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
+</head>
 
-	
-			
-				<style>
-				input{ display: block;}
-				</style>
-				<form action=""  method="get" accept-charset="utf-8"> 
 
-				<label>Noun:</label> 		<input type="text" id="Mary had a little lamb">
-				<label>Verb:</label> 		<input	type="text" id="whose fleece was white as snow">
-				<label>Plural noun:</label>  <input type="text" id="and everywhere Mary went">
-				<label>Adjective:</label> 	<input type="text" id="the lamb was sure to go">
-				<label>Enter age:</label> 	<input type="text" id="it followed her to school">
-				<label>Place of birth:</label><input type="text" id="one day">
-				<label>Mothers age:</label><input type="text" id="which was against the rule">
-				<input type="submit" value="Get story">
+<body>
+  <h1>Create your own story</h1>
+<form>
+    <p><label>Adverb</label> <input id="adv" type="text"></p>
+    <p><label>Adjective</label> <input id="adj" type="text"></p>
+    <p><label>Noun</label><input id="noun" type="text"></p>
+    <p><label>Verb</label><input id="verb" type="text"></p>      
+    <p><label>Pronoun</label><input id="pronoun" type="text"></p> 
+         
+    <p><input type="submit" value="find Mary's lamb"></p>
+</form>
 
-			</form>
-		
-			
-			
-			
-			
-	
-			
-		
-		
-    
-    
-    	
-    
-				
+<div id="story"></div>
+
 </body>
 </html>
-
-
-
